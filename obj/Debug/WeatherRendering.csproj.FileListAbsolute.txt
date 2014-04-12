@@ -1,0 +1,13 @@
+D:\PrevRabStol\MyProgramming\WeatherRendering\bin\Debug\WeatherRendering.exe.config
+D:\PrevRabStol\MyProgramming\WeatherRendering\bin\Debug\WeatherRendering.exe
+D:\PrevRabStol\MyProgramming\WeatherRendering\bin\Debug\WeatherRendering.pdb
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\MainWindow.g.cs
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\App.g.cs
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering_MarkupCompile.cache
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering_MarkupCompile.lref
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\MainWindow.baml
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering.g.resources
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering.Properties.Resources.resources
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering.csproj.GenerateResource.Cache
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering.exe
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering.pdb

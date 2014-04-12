@@ -1,0 +1,61 @@
+﻿<Window x:Class="WeatherRendering.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WeatherRendering"
+        Height="577" Width="760" WindowStyle="None" ResizeMode="NoResize" BorderThickness="4" BorderBrush="Gray" 
+        WindowStartupLocation="CenterScreen" MouseLeftButtonDown="windowLeftButtonDown" ShowInTaskbar="True" Title="Погода" 
+        Closed="MainWindowClosedEventHandler" >
+    <Window.Resources>
+        <Style x:Key="TopButtonStyle">
+            <Setter Property="Control.Background" Value="DarkSeaGreen" />
+            <Setter Property="Control.Foreground" Value="White" />
+            <Setter Property="Control.Cursor" Value="Hand" />
+            <Setter Property="Control.Height" Value="20" />
+            <Setter Property="Control.Width" Value="25" />
+            <Setter Property="Control.FontWeight" Value="ExtraBlack" />
+        </Style>
+        <Style x:Key="DayLabelStyle">
+            <Setter Property="Control.Foreground" Value="Black" />
+            <Setter Property="Control.FontSize" Value="16" />
+            <Setter Property="Control.VerticalAlignment" Value="Center" />
+            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+        </Style>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Close" Executed="CloseCommand_Executed" />
+    </Window.CommandBindings>
+    <StackPanel>
+        <Border Width="752" Height="75" Background="Green">
+            <Canvas>
+                <Label Canvas.Left="30" Canvas.Top="12" Foreground="White" Content="Погода" FontSize="28" />
+                <StackPanel Canvas.Left="655" Canvas.Top="0" Orientation="Horizontal">
+                    <Button Content="?" Style="{StaticResource TopButtonStyle}"/>
+                    <Button Content="_" Click="hideWindowButton_Clicked" Style="{StaticResource TopButtonStyle}" />
+                    <Button Content="X" Command="ApplicationCommands.Close" Style="{StaticResource TopButtonStyle}" Background="Red" Width="40" />
+                </StackPanel>
+            </Canvas>
+        </Border>
+        <Border Width="752" Height="15" Background="White" />
+        <Grid x:Name="mainGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Border Width="752" Height="25" Background="White" />
+        <Border Width="752" Height="75" Background="Green" >
+            <Label>В окне показана погода на данную неделю. Вы можете корректировать погоду.</Label>
+        </Border>
+    </StackPanel>
+</Window>
