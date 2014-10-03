@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -8,8 +7,8 @@ namespace WeatherRendering {
     public partial class MainWindow : Window {
         private String dataFileName = "weather.dat";
         private Int32 numOfDays = 7;
-        InputDataTable inputData;
-        View view;
+        private InputDataTable inputData;
+        private View view;
 
         public MainWindow() {
             InitializeComponent();

@@ -11,3 +11,4 @@ D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering.Propert
 D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering.csproj.GenerateResource.Cache
 D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering.exe
 D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering.pdb
+D:\PrevRabStol\MyProgramming\WeatherRendering\obj\Debug\WeatherRendering.csprojResolveAssemblyReference.cache
